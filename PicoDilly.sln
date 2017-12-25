@@ -1,9 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2013
-VisualStudioVersion = 12.0.21005.1
+# Visual Studio 15
+VisualStudioVersion = 15.0.27130.2010
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PicoDilly", "PicoDilly.csproj", "{3500AD89-EDA6-4503-A6AC-8EB44E47B1B2}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PicoDilly", "PicoDilly\PicoDilly.csproj", "{3500AD89-EDA6-4503-A6AC-8EB44E47B1B2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestLib", "TestLib\TestLib.csproj", "{5DF5CA5E-0308-43F0-A17F-D65E8A8800EB}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,8 +17,15 @@ Global
 		{3500AD89-EDA6-4503-A6AC-8EB44E47B1B2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3500AD89-EDA6-4503-A6AC-8EB44E47B1B2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3500AD89-EDA6-4503-A6AC-8EB44E47B1B2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5DF5CA5E-0308-43F0-A17F-D65E8A8800EB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5DF5CA5E-0308-43F0-A17F-D65E8A8800EB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5DF5CA5E-0308-43F0-A17F-D65E8A8800EB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5DF5CA5E-0308-43F0-A17F-D65E8A8800EB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F10E1191-5A5B-4DA3-B591-AD1F8718CD3F}
 	EndGlobalSection
 EndGlobal

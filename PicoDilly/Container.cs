@@ -37,7 +37,11 @@ namespace PicoDilly {
             if (null != constructor) {
                 ctorArgs = new object[] { };
             } else {
-                constructor = dependencyType.GetConstructors().First();
+                constructor = dependencyType.GetConstructors().FirstOrDefault();
+                if (null == constructor) {
+                    throw new DependencyResolvingException($"Cannot create instance of type {dependencyType.Name}." +
+                                                           $"\nDid you miss to register something for this type?");
+                }
                 ctorArgs = GetConstructorArgs(constructor);
             }
 
